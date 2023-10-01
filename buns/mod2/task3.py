@@ -1,0 +1,7 @@
+s = input()
+first_space = s.index(' ')
+second_space = s.rindex(' ')
+a = int(s[:first_space])
+b = int(s[first_space+1:second_space])
+c = int(s[second_space+1:])
+print(a+b+c-min(a, b, c)-max(a, b, c))

@@ -1,0 +1,5 @@
+s = input()
+ind = s.index(',')
+a = int(s[0:ind])
+b = int(s[ind+2:])
+print(a % b)
