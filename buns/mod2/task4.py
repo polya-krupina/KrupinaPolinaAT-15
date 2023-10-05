@@ -8,7 +8,7 @@ def change_number_system(x, number_system):
     return result
 
 a = float(input())
-if int(a) != a:
+if int(a) != a or int(a) < 0:
     print('Неверный ввод')
 else:
     a = int(a)
