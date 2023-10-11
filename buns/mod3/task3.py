@@ -1,3 +1,2 @@
 a = input()[::-1].split('.')
-for d in a:
-    print(d[::-1])
+print(*[d[::-1] for d in a], sep='\n')

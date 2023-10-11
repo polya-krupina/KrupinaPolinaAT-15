@@ -1,3 +1,2 @@
 s = input().split(' ')
-for word in s:
-    print(word[-1], end = '')
+print(*[word[-1] for word in s], sep='')
