@@ -7,6 +7,4 @@ def are_numbers_equal(num_list):
     return 'Есть равные и неравные числа'
 
 
-print(are_numbers_equal([1, 1, 1, 1]))
-print(are_numbers_equal([1, 2, 3, 4]))
-print(are_numbers_equal([1, 2, 2, 3]))
+print(are_numbers_equal(input().split(' ')))
