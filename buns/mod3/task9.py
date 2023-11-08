@@ -17,4 +17,5 @@ for i in range(n):
     coords[current_coord_index] += current_direction
     s_from_last_dot += 1
 #print(coords[0], coords[1])
-open('output.txt','w' ).write(str(coords[0]) + ' ' + str(coords[1]))
+with open('output.txt','w' ) as f:
+    f.write(str(coords[0]) + ' ' + str(coords[1]))
