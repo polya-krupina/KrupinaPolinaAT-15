@@ -1,5 +1,7 @@
 #n = int(input())
-n = int(open('input.txt').readline())
+input_file = open('input.txt')
+n = int(input_file.readline())
+input_file.close()
 coords = [0, 0]
 current_step_length = 1
 current_direction = -1
